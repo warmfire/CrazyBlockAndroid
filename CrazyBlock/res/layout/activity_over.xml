@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lab2"
+        android:layout_alignBottom="@+id/lab2"
+        android:layout_toRightOf="@+id/lab2"
+        android:text="秒"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/lab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="您坚持的时间是"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lab1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:text="重新开始" />
+
+    <TextView
+        android:id="@+id/lab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lab1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="0"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lab2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="上传成绩" />
+
+</RelativeLayout>

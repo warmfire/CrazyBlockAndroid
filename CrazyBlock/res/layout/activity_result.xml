@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.activity.MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/rrl1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#0ed4c1" >
+
+        <TextView
+            android:id="@+id/txt_rmonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="排行榜"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rrl1"
+        android:layout_above="@+id/rrl2" >
+        
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/rrl2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/btn_radd"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            android:background="#f5a01f"
+            android:text="重新开始"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

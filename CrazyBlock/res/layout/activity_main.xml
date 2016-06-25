@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.crazyblock.MainActivity" >
+
+    <com.example.crazyblock.Center 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <com.example.crazyblock.GameCenter 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"/>
+    
+    <com.example.crazyblock.BlueBlock
+        android:id="@+id/bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <com.example.crazyblock.RedBlock 
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
